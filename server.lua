@@ -9,7 +9,7 @@ local function checkName(name)
         return true
       end
   end
-  return falsez
+  return false
 end
 
 AddEventHandler('playerConnecting', function(playername, setKickReason)
